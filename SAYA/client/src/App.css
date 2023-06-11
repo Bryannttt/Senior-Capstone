@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.availableScreen {
+    height: 100vh;
+    width: 100vw;
+    padding-left: 11em;
+}
+
+.App {
+    /* Login */
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+.overview {
+    position: absolute;
+    height: 44px;
+    left: 228px;
+    right: 90px;
+    top: 41px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}
+
+table {
+    width: 100%;
+    border-radius: 15.4px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+thead {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+tr {
+    height: 3em;
+}
+
+td {
+    padding-left: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+}

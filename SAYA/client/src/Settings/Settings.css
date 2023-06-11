@@ -1,0 +1,513 @@
+.Info {
+    font-family: 'Mulish';
+    font-style: normal;
+    position: absolute;
+    height: 44px;
+    left: 209px;
+    right: 109px;
+    top: 30px;
+}
+
+.Name {
+    position: absolute;
+    width: 164.46px;
+    height: 20px;
+    left: 232px;
+    top: 112px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.Email {
+    position: absolute;
+    width: 55.26px;
+    height: 20px;
+    left: 887.2px;
+    top: 112px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.Code {
+    position: absolute;
+    width: 153.93px;
+    height: 20px;
+    left: 232px;
+    top: 215px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.Phone {
+    /* Phone Number * */
+
+
+    position: absolute;
+    width: 151.3px;
+    height: 20px;
+    left: 887.2px;
+    top: 215px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.Invoice {
+    position: absolute;
+    width: 199.98px;
+    height: 20px;
+    left: 232px;
+    top: 318px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.Main {
+
+    position: absolute;
+    width: 138.14px;
+    height: 20px;
+    left: 887.2px;
+    top: 319px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.AccName {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 232px;
+    top: 144px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Mail {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 887.2px;
+    top: 144px;
+
+    background: rgba(217, 217, 217, 0.5);
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+    
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Country {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 232px;
+    top: 247px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+    
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Number {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 887.2px;
+    top: 247px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+    
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Prefix {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 232px;
+    top: 350px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+    
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.MainAcc {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 887.2px;
+    top: 351px;
+
+    background: rgba(217, 217, 217, 0.5);
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+    
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.User {
+    position: absolute;
+    width: 771px;
+    height: 34px;
+    left: 209px;
+    top: 463px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+
+}
+
+.UserInfo {
+    position: absolute;
+    width: 1117px;
+    height: 467px;
+    left: 232px;
+    top: 529px;
+}
+
+.First {
+    position: absolute;
+    width: 126.3px;
+    height: 20px;
+    left: 232px;
+    top: 535px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+}
+
+.FirstIn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 232px;
+    top: 561px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Last {
+    position: absolute;
+    width: 124.99px;
+    height: 20px;
+    left: 887.2px;
+    top: 535px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    padding-left: 8px;
+}
+
+.LastIn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 887.2px;
+    top: 561px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Email2 {
+    position: absolute;
+    width: 55.26px;
+    height: 20px;
+    left: 232px;
+    top: 632px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    padding-left: 8px;
+}
+
+.EmailIn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 232px;
+    top: 664px;
+
+    background: rgba(217, 217, 217, 0.5);
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Date {
+    position: absolute;
+    width: 151.3px;
+    height: 20px;
+    left: 887.2px;
+    top: 632px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    padding-left: 8px;
+}
+
+.Format {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 887.2px;
+    top: 664px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Password {
+    position: absolute;
+    width: 99.99px;
+    height: 20px;
+    left: 232px;
+    top: 735px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    color: #000000;
+
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Pass {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 232px;
+    top: 767px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.Confirm {
+    position: absolute;
+    width: 185.51px;
+    height: 20px;
+    left: 887.2px;
+    top: 736px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.ConfirmPass {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 461.8px;
+    height: 43px;
+    left: 887.2px;
+    top: 768px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.settingSaveButton {
+    position: absolute;
+    width: 180.25px;
+    height: 43px;
+    left: 232px;
+    top: 850px;
+
+    background: #3448CB;
+    border-radius: 10px;
+    border: 0px;
+
+    color:white;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+.settingSaveButton:hover {
+    background-color: #142071;
+}
+
+.settingCancelButton {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 180.25px;
+    height: 43px;
+    left: 453.03px;
+    top: 850px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+    border: 0px;
+
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+.settingCancelButton:hover {
+    background-color: #444444;
+    color: rgb(241, 241, 241);
+}
+
+.Background {
+    background-color: white;
+    border: 0;
+}

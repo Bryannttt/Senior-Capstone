@@ -1,0 +1,115 @@
+.information {
+    position: absolute;
+    width: 73vw;
+    left: 228px;
+    top: 10em;
+
+    border-radius: 15.4px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.searchSectionForTenants {
+    position: relative;
+    padding-left: 10px;
+}
+
+.inputSearchBarTenant {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 13px;
+    /* grayscale / extra light */
+    background: #f3f3f3;
+    /* grayscale / gray lightest */
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.tenTable {
+    position: relative;
+    width: 100%;
+    top: 11em;
+}
+
+.tenants {
+    position: absolute;
+    width: 75vw;
+    left: 228px;
+    top: 18em;
+}
+
+.imageIconResize {
+    height: 15px;
+}
+
+.viewTenantsTitle {
+    position: absolute;
+    height: 44px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+
+    /* grayscale / black */
+
+    color: #252733;
+
+}
+
+.addTenantsTitle {
+    position: absolute;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+
+    top:100px;
+    left:228px;
+
+    /* grayscale / black */
+
+    color: #373940;
+
+}
+
+.searchingTenantText {
+    position: absolute;
+    width: 479.94px;
+    height: 78px;
+    top: 4em;
+}
+
+.searchTenantBar {
+    position: absolute;
+    width: 430.07px;
+    height: 43px;
+    top: 7em;
+
+    font-family: 'Mulish';
+    font-style: normal;
+
+    box-sizing: border-box;
+    /* grayscale / extra light */
+    background: #f3f3f3;
+    /* grayscale / gray lightest */
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.searchTenantIcon {
+    position: absolute;
+    height: 40px;
+    top: 6em;
+    left: 28em;
+}
+
+.newTenantButton {
+    font-family: 'Mulish';
+    font-style: normal;
+    margin-left: 20px;
+}
+.highlighted-row {
+    background-color: #F4FA58 !important;
+  }
