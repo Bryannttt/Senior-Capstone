@@ -1,0 +1,134 @@
+.billNoti {
+    position: absolute;
+    height: 324px;
+    left: 228px;
+    right: 684px;
+    top: 105px;
+
+    box-sizing: border-box;
+
+    /* grayscale / white */
+
+    background: #FFFFFF;
+    /* grayscale / divider */
+
+    border: 1px solid #DFE0EB;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15.4px;
+
+}
+
+.tenantsBoard {
+    position: absolute;
+    width: 75vw;
+    height: 322px;
+    left: 228px;
+    top: 632px;
+}
+
+.BillingH {
+    position: absolute;
+    height: 44px;
+    left: 228px;
+    right: 90px;
+    top: 463px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+
+    /* grayscale / black */
+
+    color: #252733;
+
+}
+
+.Searching {
+    position: absolute;
+    width: 479.94px;
+    height: 78px;
+    left: 228px;
+    top: 526px;
+}
+
+.SearchH {
+    position: absolute;
+    width: 430.07px;
+    height: 43px;
+    left: 228px;
+    top: 561px;
+
+    box-sizing: border-box;
+    /* grayscale / extra light */
+    background: #f3f3f3;
+    /* grayscale / gray lightest */
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.searchBillingIcon {
+    position: absolute;
+    height: 40px;
+
+    top: 561px;
+    left: 665px;
+}
+.unitN{
+    
+    /* SemiBold/14px */
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    width: 115px;
+    height: 20px;   
+    /* identical to box height, or 143% */
+    
+    letter-spacing: 0.2px;
+    
+    /* grayscale / black */
+    
+    color: #252733;
+    border-bottom: 1px solid #DFE0EB;
+    padding: 8px;
+}
+
+.dateNum{
+    height: 20px;
+    width: 65%;
+    /* SemiBold/14px */
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    letter-spacing: 0.2px;
+    border-bottom: 1px solid #DFE0EB;
+    padding-left: 190px;
+    
+    /* grayscale / gray */
+    
+    color: #9FA2B4;
+}
+
+.theNotis{
+left: 29.42px;
+top: 100px;
+
+}
+
+.notiType{
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.billingT{
+    padding-top: 85px;
+}

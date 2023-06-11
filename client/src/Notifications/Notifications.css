@@ -1,0 +1,430 @@
+.notificationBoard {
+    position: relative;
+    height: 630px;
+    width: 40vw;
+    top: 158px;
+    left: 3em;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15.4px;
+
+    background: #FFFFFF;
+}
+
+.Noti {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 178px;
+    top: 32px;
+
+    /* Bold/19px */
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.4px;
+
+    /* grayscale / black */
+
+    color: #252733;
+}
+
+.See {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    right: 32px;
+    top: 37px;
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    color: #3448CB;
+}
+
+.See:visited {
+    color: #3448CB;
+}
+
+.See:hover {
+    color: #121e6c;
+}
+
+.ground {
+    width: 1440px;
+    height: 1421px;
+
+    background: #FFFFFF;
+}
+
+.notiTable {
+    position: absolute;
+    width: 80vw;
+    height: 323px;
+    left: 210px;
+    top: 375px;
+
+}
+
+.notificationButtonStatus {
+    position: absolute;
+    height: 44px;
+    left: 600px;
+    right: 90px;
+    top: 45px;
+
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: green;
+}
+
+.CreateNew {
+    position: absolute;
+    width: 258px;
+    height: 50px;
+    left: 220px;
+    top: 7rem;
+
+    font-size: 16px;
+
+    background-color: #5465d3;
+    box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+    border-radius: 8px;
+    color: white;
+    font-style: bold;
+    border: 0px solid white;
+}
+
+.CreateNew:hover {
+    background-color: #132177;
+}
+
+.switchButton {
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    left: 509px;
+    top: 7rem;
+    padding-left: 3em;
+
+    font-size: 16px;
+    font-style: bold;
+
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+    border-radius: 8px;
+    border: 0px solid white;
+}
+
+.switch {
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    top: 15px;
+    left: 15em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2ba422;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #d22916;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #d22916;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.Enabled {
+    position: absolute;
+    width: 303px;
+    height: 50px;
+    left: 509px;
+    top: 144px;
+
+    border: 1.9294px solid #425CA9;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 9.90423px;
+}
+
+.NotiHistory {
+    position: absolute;
+    height: 44px;
+    left: 228px;
+    right: 404px;
+    top: 210px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+
+    /* grayscale / black */
+
+    color: #252733;
+}
+
+.SearchBy {
+    box-sizing: border-box;
+    font-size: 16px;
+    position: absolute;
+    width: 458px;
+    height: 43px;
+    left: 225px;
+    top: 296px;
+    /* grayscale / extra light */
+    background: #f3f3f3;
+    /* grayscale / gray lightest */
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.FromDate {
+    box-sizing: border-box;
+    font-size: 16px;
+
+    position: absolute;
+    width: 217px;
+    height: 43px;
+    left: 696px;
+    top: 295px;
+
+    /* grayscale / extra light */
+    background: #f3f3f3;
+    /* grayscale / gray lightest */
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.Search {
+    position: absolute;
+    width: 346px;
+    height: 16px;
+    left: 228px;
+    top: 269px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+
+    color: #6F6F6F;
+}
+
+.ToDate {
+    position: absolute;
+    width: 277.35px;
+    height: 15.81px;
+    left: 936px;
+    top: 269px;
+    font-size: 19px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #6F6F6F;
+}
+
+.DateTo {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 260px;
+    height: 43px;
+    left: 926px;
+    top: 295px;
+
+    font-size: 16px;
+
+    /* grayscale / extra light */
+    background: #f3f3f3;
+    /* grayscale / gray lightest */
+    border: 1px solid #F0F1F7;
+    border-radius: 8px;
+    padding-left: 8px;
+}
+
+.searchNotificationIcon {
+    position: absolute;
+    height: 40px;
+
+    top: 296px;
+    left: 1190px;
+}
+
+.popUp{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 418px;
+    left: 250px;
+    right: 350px;
+    top: 250px;
+    z-index: 1;
+    width: auto;
+
+/* grayscale / white */
+
+background: #FFFFFF;
+/* grayscale / divider */
+
+border: 1px solid #DFE0EB;
+border-radius: 8px;
+filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+border-radius: 15.4px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 15px;
+}
+
+.preview{
+    position: absolute;
+width: 524px;
+height: 212px;
+left: 500px;
+top: 60px;
+
+}
+
+.message{
+    box-sizing: border-box;
+
+width: 500px;
+height: 212px;
+
+border: 1px solid #6F6F6F;
+border-radius: 10px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+position: absolute;
+padding: 10px 20px 5px 20px;
+
+}
+
+.makeNoti{
+    position: absolute;
+width: 211px;
+height: 42.64px;
+left: 790px;
+top: 349px;
+
+border-radius: 10px;
+font-size: 16px;
+
+    background-color: #5465d3;
+    box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+    border-radius: 8px;
+    color: white;
+    font-style: bold;
+    border: 0px solid white;
+}
+.makeNoti:hover {
+    background-color: #132177;
+}
+
+.labels{
+    padding: 0 30px 0 25px;
+}
+
+.typeN{
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 30px;
+
+    border: 1px solid #6F6F6F;
+    border-radius: 10px;
+}
+
+
+  .highlighted-row {
+    background-color: #F4FA58 !important;
+  }
+
+  .dark-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .notificationButtonStatusOff {
+    color: green;
+  }
+  
+  .notificationButtonStatusOn {
+    color: red;
+  }
+  
+  
+

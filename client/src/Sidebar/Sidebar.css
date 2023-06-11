@@ -1,0 +1,97 @@
+.sidebar {
+  position: fixed;
+  width: 11em;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  z-index:1;
+  background-color: black;
+}
+
+.saya {
+  position: absolute;
+  width: 130px;
+  height: 98px;
+  left: 23px;
+  top: 14px;
+
+  background: url(../assets/saya.png);
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 8em;
+}
+
+.nav li {
+  margin-bottom: 10px;
+}
+
+.nav li a {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.2px;
+
+  /* sidebar / gray */
+
+  color: #A4A6B3;
+}
+
+.nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+}
+
+.nav2 li {
+  margin-bottom: 10px;
+}
+
+.nav2 li a {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.2px;
+
+  /* sidebar / gray */
+
+  color: #A4A6B3;
+}
+
+.sideBarListItem {
+  position: relative;
+  height: 40px;
+  left: 40px;
+}
+
+.solid {
+  position: absolute;
+  height: 0px;
+  left: 0px;
+  right: 0px;
+  top: 26.5em;
+
+  /* grayscale / divider */
+
+  border: 1px solid #424243;
+}

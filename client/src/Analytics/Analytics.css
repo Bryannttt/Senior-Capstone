@@ -1,0 +1,11 @@
+.barChart{
+    position: relative;
+    width: 90%;
+    padding-left: 4em;
+}
+
+.analyticsChart{
+    position: relative;
+    padding-left: 10em;
+    width: 100%;
+}
